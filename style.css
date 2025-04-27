@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar {
+    background-color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+position: sticky;
+top: 0;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    
+
+}
+.nav-links li{
+    margin-right: 30px;
+    
+    
+    }
+    .nav-links a{
+    color: black;
+    text-decoration: none;
+    }
+    .nav-links a:hover{
+        color: aquamarine;
+        border-bottom: white 2px solid;
+        font-weight: bold;
+    
+    }
+    .menu-icon {
+        display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    }
+    
+    #menu-toggle{
+        display: none;
+    }
+    .logo{
+        margin-right: 20px;
+        color: green;
+    }
+    .nav-links button{
+background-color: green;
+color: white;
+padding: 5px;
+margin-bottom: 5px;
+    }
+    .one{
+        color: black;
+        font-weight: bold;
+        font-size: 55px;
+        margin: auto;
+    }
+    .two{
+        color: green;
+        font-size: 55px;
+        font-weight: bold;
+        margin: auto;
+    }
+    
+    .main-section{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 50px 20px;
+        background-color: #fff;
+    }
+    .content{
+        max-width: 500px;
+
+    }
+    .content p{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .register-btn {
+        background-color: #00a651;
+        color: white;
+        border: none;
+        padding: 12px 30px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .register-btn:hover{
+        background-color: #008b43;
+    }
+    .image-section img{
+        width: 400px;
+        height: auto;
+    }
+    .clients-section{
+        text-align: center;
+        padding: 50px 20px;
+        background-color: #fff;
+    }
+    .clients-section h2{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .clients-section p{
+        font-size: 18px;
+        color: #555;
+        margin-bottom: 40px;
+    }
+    .clients-logos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+.community-section{
+text-align: center;
+}
+
+.community-section h2{
+margin-top: 10px;
+}
+.community-section p{
+    margin-top: 10px;
+}
+
+    .community-cards{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background-color: #fff;
+        border: 1px solid #eee;
+        padding: 30px 20px;
+        width: 250px;
+        box-shadow: 0 2px 5px rgba(red, green, blue, alpha);
+
+
+    }
+    .card img{
+        width: 180px;
+        margin-bottom: 10px;
+    }
+    .card h3{
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+    .card p{
+        font-size: 16px;
+        color: #666;
+    }
+    .feature-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+        padding: 80px 20px;
+    }
+    .feature-image img{
+        width: 300px;
+        height: auto;
+    }
+    .feature-content{
+        max-width: 500px;
+        text-align: left;
+
+    }
+    .feature-content h2{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .feature-content p{
+        font-size: 16px;
+        margin-bottom: 30px;
+        color: #555;
+
+    }
+    .learn-more-btn{
+        background-color: #00a651;
+        color: white;
+        border: none;
+        padding: 12px 30px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        
+
+    }
+    
+    
+     
+    .n2{
+        text-align: center;
+    }
+    .n2 button{
+        margin: auto;
+        padding: 10px;
+        color: white;
+        background-color: #008b43;
+        
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+        background: linear-gradient(to right, #ffffff, #f0f0f0); 
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        border-radius: 8px;
+    }
+    
+    .tagline {
+        margin-bottom: 40px;
+    }
+    
+    .tagline h1 {
+        font-size: 24px;
+        color: #333;
+    }
+    
+    .tagline h1 span {
+        color: #4CAF50; 
+    }
+    
+    .tagline p {
+        font-size: 16px;
+        color: #666;
+    }
+    
+    .stats {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .stat-item {
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .stat-item img {
+        width: 80px; 
+        height: 60px;
+        margin-bottom: 10px;
+    }
+    
+    .stat-item span {
+        display: block;
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+    }
+    
+    .stat-item p {
+        font-size: 16px;
+        color: #666;
+    }
+
+    
+    
+
+    footer {
+        background-color: #2c2c2c;
+        color: #fff;
+        padding: 20px;
+      }
+      
+      .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      
+      .footer-left {
+        flex-basis: 30%;
+      }
+      
+      .footer-left h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      .footer-left p {
+        font-size: 14px;
+        margin-bottom: 20px;
+        color: white;
+      }
+      
+      .social-icons {
+        display: flex;
+        gap: 10px;
+      }
+      
+      .social-icons a {
+        color: #fff;
+        font-size: 18px;
+      }
+      
+      .footer-links {
+        display: flex;
+        flex-basis: 70%;
+        justify-content: space-between;
+      }
+      
+      .company, .support, .newsletter {
+        flex-basis: 30%;
+      }
+      
+      .company h3, .support h3, .newsletter h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      .company ul, .support ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .company li, .support li {
+        margin-bottom: 10px;
+      }
+      
+      .company a, .support a {
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      .newsletter form {
+        display: flex;
+        gap: 10px;
+      }
+      
+      .newsletter input[type="email"] {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        width: 70%;
+      }
+      
+      .newsletter button[type="submit"] {
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      .newsletter button[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+
+      @media (max-width:768px) {
+        .nav-links {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            background: #fff;
+            width: 100%;
+            padding: 20px;
+        }
+        #menu-toggle:checked + .menu-icon + .nav-links + button {
+            display: flex;
+        }
+        .nav-links li {
+            margin-bottom: 20px;
+        }
+        .menu-icon {
+            display: block;
+        }
+        .logo img{
+            width: 100px;
+            height: 20px;
+        }
+        .clients-section{
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .client-logos{
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .feature{
+            flex-direction: column;
+            text-align: center;
+        }
+        .community-cards{
+            flex-direction: column;
+            align-items: center;
+        }
+        .stats{
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+      }
+     
+    
+    
